@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS3 Transitions and Animations</title>
+</head>
+<body>
+    <!-- Part 1: Button Hover Effect -->
+    <button class="btn">Hover me</button>
+    <hr>
+    <!-- Part 1: Box with Transition -->
+    <div class="box"></div>
+    <hr>
+    <!-- Part 3: Emoji Bounce Animation (JS + CSS) -->
+    <div class="emoji-anim-container">
+        <span id="emoji-anim" class="emoji-anim">😂</span>
+        <br>
+        <button id="emoji-anim-btn">Touch me</button>
+    </div>
+    <hr>
+    <!-- Part 3: Heartbeat Emoji Animation (JS + CSS) -->
+    <div class="heartbeat-emoji-container">
+        <span id="heartbeat-emoji" class="heartbeat-emoji">❤️</span>
+    </div>
+    <button onclick="startHeartbeat()">Start</button>
+    <button onclick="stopHeartbeat()">Stop</button>
+    <hr>
+    <!-- Part 1 & 3: Fade-in Box Animation (JS + CSS) -->
+    <div id="fade-box" class="fade-box">Fade Me In!</div>
+    <button onclick="fadeInBox()">Fade In Box</button>
+    <script src="script.js"></script>
+</body>
+</html>
